@@ -5,7 +5,14 @@
     "library_path": ".\\XR_APILAYER_name.dll",
     "api_version": "1.0",
     "implementation_version": "1",
-    "description": "An API layer template",
+    "description": "Enable Index Controller finger sensing with Varjo OpenXR",
+    "instance_extensions": [
+      {
+        "name": "XR_EXT_hand_tracking",
+        "extension_version": 4,
+        "entrypoints": []
+      }
+    ],
     "functions": {
       "xrNegotiateLoaderApiLayerInterface": "xrNegotiateLoaderApiLayerInterface"
     },

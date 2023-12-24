@@ -1,8 +1,5 @@
 // MIT License
 //
-// << insert your own copyright here >>
-//
-// Based on https://github.com/mbucchia/OpenXR-Layer-Template.
 // Copyright(c) 2022-2023 Matthieu Bucchianeri
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,11 +21,6 @@
 // SOFTWARE.
 
 #pragma once
-
-// Uncomment below the graphics frameworks used by the layer.
-
-#define XR_USE_GRAPHICS_API_D3D11
-#define XR_USE_GRAPHICS_API_D3D12
 
 // Standard library.
 #include <algorithm>
@@ -61,15 +53,6 @@ using namespace std::chrono_literals;
 
 using Microsoft::WRL::ComPtr;
 
-// Graphics APIs.
-#include <dxgiformat.h>
-#ifdef XR_USE_GRAPHICS_API_D3D11
-#include <d3d11_4.h>
-#endif
-#ifdef XR_USE_GRAPHICS_API_D3D12
-#include <d3d12.h>
-#endif
-
 // OpenXR + Windows-specific definitions.
 #define XR_NO_PROTOTYPES
 #define XR_USE_PLATFORM_WIN32
@@ -83,16 +66,7 @@ using Microsoft::WRL::ComPtr;
 #include <XrError.h>
 #include <XrMath.h>
 #include <XrSide.h>
-#include <XrStereoView.h>
 #include <XrToString.h>
-#include <DirectXCollision.h>
 
 // FMT formatter.
 #include <fmt/format.h>
-
-#if defined(XR_USE_GRAPHICS_API_D3D11) || defined(XR_USE_GRAPHICS_API_D3D12)
-// Utilities framework.
-#include <utils/graphics.h>
-#endif
-
-#include <utils/inputs.h>

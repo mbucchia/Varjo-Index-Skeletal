@@ -1,8 +1,5 @@
 // MIT License
 //
-// << insert your own copyright here >>
-//
-// Based on https://github.com/mbucchia/OpenXR-Layer-Template.
 // Copyright(c) 2022-2023 Matthieu Bucchianeri
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,11 +31,15 @@ namespace openxr_api_layer {
     using namespace log;
 
     // Our API layer implement these extensions, and their specified version.
-    const std::vector<std::pair<std::string, uint32_t>> advertisedExtensions = {};
+    const std::vector<std::pair<std::string, uint32_t>> advertisedExtensions = {
+        {XR_EXT_HAND_TRACKING_EXTENSION_NAME, 4}};
 
     // Initialize these vectors with arrays of extensions to block and implicitly request for the instance.
-    const std::vector<std::string> blockedExtensions = {};
-    const std::vector<std::string> implicitExtensions = {};
+    //
+    // Note that we block and implicitly request XR_EXT_hand_tracking in order to allow passthrough of it to the
+    // runtime, in case we detect after instance creation that the upstream API layers or runtime are adequate.
+    const std::vector<std::string> blockedExtensions = {XR_EXT_HAND_TRACKING_EXTENSION_NAME};
+    const std::vector<std::string> implicitExtensions = {XR_EXT_HAND_TRACKING_EXTENSION_NAME};
 
     // This class implements our API layer.
     class OpenXrLayer : public openxr_api_layer::OpenXrApi {
