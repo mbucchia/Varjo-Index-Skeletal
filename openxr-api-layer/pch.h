@@ -28,7 +28,6 @@
 #include <ctime>
 #define _USE_MATH_DEFINES
 #include <cmath>
-#include <deque>
 #include <iomanip>
 #include <iostream>
 #include <mutex>
@@ -37,12 +36,12 @@
 #include <sstream>
 #include <string>
 #include <memory>
-#include <optional>
+#include <set>
 
 using namespace std::chrono_literals;
 
 // Windows header files.
-#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+#define WIN32_LEAN_AND_MEAN // Exclude rarely-used stuff from Windows headers
 #define NOMINMAX
 #include <windows.h>
 #include <unknwn.h>
@@ -68,5 +67,55 @@ using Microsoft::WRL::ComPtr;
 #include <XrSide.h>
 #include <XrToString.h>
 
+// OpenVR.
+#include <openvr.h>
+
 // FMT formatter.
 #include <fmt/format.h>
+
+// Detours.
+#include <detours.h>
+
+// Helper to detour a class method.
+template <class T, typename TMethod>
+void DetourMethodAttach(T* instance, unsigned int methodOffset, TMethod hooked, TMethod& original) {
+    if (original) {
+        // Already hooked.
+        return;
+    }
+
+    LPVOID* vtable = *((LPVOID**)instance);
+    LPVOID target = vtable[methodOffset];
+
+    DetourTransactionBegin();
+    DetourUpdateThread(GetCurrentThread());
+
+    original = (TMethod)target;
+    DetourAttach((PVOID*)&original, hooked);
+
+    CHECK_MSG(DetourTransactionCommit() == NO_ERROR, "Detour failed");
+}
+
+template <class T, typename TMethod>
+void DetourMethodDetach(T* instance, unsigned int methodOffset, TMethod hooked, TMethod& original) {
+    if (!original) {
+        // Not hooked.
+        return;
+    }
+
+    LPVOID* vtable = *((LPVOID**)instance);
+    LPVOID target = vtable[methodOffset];
+
+    DetourTransactionBegin();
+    DetourUpdateThread(GetCurrentThread());
+
+    DetourDetach((PVOID*)&original, hooked);
+
+    CHECK_MSG(DetourTransactionCommit() == NO_ERROR, "Detour failed");
+
+    original = nullptr;
+}
+
+#define DECLARE_DETOUR_FUNCTION(ReturnType, Callconv, FunctionName, ...)                                               \
+    inline ReturnType(Callconv* g_original_##FunctionName)(##__VA_ARGS__) = nullptr;                                   \
+    ReturnType Callconv hooked_##FunctionName(##__VA_ARGS__)

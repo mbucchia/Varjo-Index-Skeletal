@@ -1,0 +1,292 @@
+{
+    "actions": [
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_value",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/select",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/select_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_click",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_force",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_y",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion2",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_value",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_click",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/squeeze_click_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_x",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion2",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_touch",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_y",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion2",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_x",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion2",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_click",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbrest_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/thumbrest_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_force",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_click",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/trackpad_click_Coercion",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/system_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/a",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/a_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/system",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/system_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/a_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/b",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/b_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/b_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/x",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/x_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/x_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/x_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/y",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/y_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/y_touch",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/y_touch_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/menu",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/menu_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/left_aim",
+            "type": "pose"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/left_grip",
+            "type": "pose"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/right_aim",
+            "type": "pose"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/right_grip",
+            "type": "pose"
+        },
+        {
+            "name": "/actions/hand_tracking_scene_actions/in/motion_range_mode_change_action",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/hand_tracking_scene_actions/in/motion_range_mode_change_action_Coercion",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/tracking_state_action_set/in/grip_pose",
+            "type": "pose"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/HandSkeletonLeft",
+            "skeleton": "/skeleton/hand/left",
+            "type": "skeleton"
+        },
+        {
+            "name": "/actions/controller_actions_scene_actionset/in/HandSkeletonRight",
+            "skeleton": "/skeleton/hand/right",
+            "type": "skeleton"
+        }
+    ],
+    "default_bindings": [
+        {
+            "binding_url": "vive_controller.json",
+            "controller_type": "vive_controller"
+        },
+        {
+            "binding_url": "knuckles.json",
+            "controller_type": "knuckles"
+        }
+    ]
+}

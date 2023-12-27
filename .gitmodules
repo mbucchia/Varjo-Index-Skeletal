@@ -7,3 +7,10 @@
 [submodule "external/OpenXR-MixedReality"]
 	path = external/OpenXR-MixedReality
 	url = https://github.com/microsoft/OpenXR-MixedReality.git
+[submodule "external/openvr"]
+	path = external/openvr
+	url = https://github.com/ValveSoftware/openvr.git
+[submodule "external/OpenXR-MixedReality-Samples"]
+	path = external/OpenXR-MixedReality-Samples
+	url = https://github.com/mbucchia/OpenXR-MixedReality.git
+	branch = virtualdesktop-openxr

@@ -23,6 +23,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BA77
 		scripts\Uninstall-Layer32.ps1 = scripts\Uninstall-Layer32.ps1
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApps", "TestApps", "{B6F90B92-50FA-4ED1-A69A-EFEFBCB6C6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{0C526A03-A705-4D91-A03D-5A0B82DEECA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gltf_win32", "external\OpenXR-MixedReality-Samples\shared\gltf\Gltf_win32.vcxproj", "{6A3225A3-0750-47B7-8004-80CA543F8B8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pbr_win32", "external\OpenXR-MixedReality-Samples\shared\pbr\pbr_win32.vcxproj", "{2B7688F8-9AE6-4A67-809B-1BAC82094F21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleShared_win32", "external\OpenXR-MixedReality-Samples\shared\SampleShared\SampleShared_win32.vcxproj", "{269C12FA-E68D-470B-A734-4701034306BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XrSceneLib_win32", "external\OpenXR-MixedReality-Samples\shared\XrSceneLib\XrSceneLib_win32.vcxproj", "{A758AF22-F54F-4C74-BF85-05A377B5892E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSceneWin32", "external\OpenXR-MixedReality-Samples\samples\SampleSceneWin32\SampleSceneWin32.vcxproj", "{4D888630-45DB-4CAA-8AAA-3C4CE33F90AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,12 +47,33 @@ Global
 		{93D573D0-634F-4BA0-8FE0-FB63D7D00A05}.Debug|x64.Build.0 = Debug|x64
 		{93D573D0-634F-4BA0-8FE0-FB63D7D00A05}.Release|x64.ActiveCfg = Release|x64
 		{93D573D0-634F-4BA0-8FE0-FB63D7D00A05}.Release|x64.Build.0 = Release|x64
+		{6A3225A3-0750-47B7-8004-80CA543F8B8B}.Debug|x64.ActiveCfg = Debug|x64
+		{6A3225A3-0750-47B7-8004-80CA543F8B8B}.Debug|x64.Build.0 = Debug|x64
+		{6A3225A3-0750-47B7-8004-80CA543F8B8B}.Release|x64.ActiveCfg = Release|x64
+		{2B7688F8-9AE6-4A67-809B-1BAC82094F21}.Debug|x64.ActiveCfg = Debug|x64
+		{2B7688F8-9AE6-4A67-809B-1BAC82094F21}.Debug|x64.Build.0 = Debug|x64
+		{2B7688F8-9AE6-4A67-809B-1BAC82094F21}.Release|x64.ActiveCfg = Release|x64
+		{269C12FA-E68D-470B-A734-4701034306BD}.Debug|x64.ActiveCfg = Debug|x64
+		{269C12FA-E68D-470B-A734-4701034306BD}.Debug|x64.Build.0 = Debug|x64
+		{269C12FA-E68D-470B-A734-4701034306BD}.Release|x64.ActiveCfg = Release|x64
+		{A758AF22-F54F-4C74-BF85-05A377B5892E}.Debug|x64.ActiveCfg = Debug|x64
+		{A758AF22-F54F-4C74-BF85-05A377B5892E}.Debug|x64.Build.0 = Debug|x64
+		{A758AF22-F54F-4C74-BF85-05A377B5892E}.Release|x64.ActiveCfg = Release|x64
+		{4D888630-45DB-4CAA-8AAA-3C4CE33F90AB}.Debug|x64.ActiveCfg = Debug|x64
+		{4D888630-45DB-4CAA-8AAA-3C4CE33F90AB}.Debug|x64.Build.0 = Debug|x64
+		{4D888630-45DB-4CAA-8AAA-3C4CE33F90AB}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BA775DE9-671E-4E3B-92AC-9828C2AAF490} = {A53ED6CB-95D3-4833-8A16-C6A588F16F6E}
+		{0C526A03-A705-4D91-A03D-5A0B82DEECA6} = {B6F90B92-50FA-4ED1-A69A-EFEFBCB6C6D1}
+		{6A3225A3-0750-47B7-8004-80CA543F8B8B} = {0C526A03-A705-4D91-A03D-5A0B82DEECA6}
+		{2B7688F8-9AE6-4A67-809B-1BAC82094F21} = {0C526A03-A705-4D91-A03D-5A0B82DEECA6}
+		{269C12FA-E68D-470B-A734-4701034306BD} = {0C526A03-A705-4D91-A03D-5A0B82DEECA6}
+		{A758AF22-F54F-4C74-BF85-05A377B5892E} = {0C526A03-A705-4D91-A03D-5A0B82DEECA6}
+		{4D888630-45DB-4CAA-8AAA-3C4CE33F90AB} = {B6F90B92-50FA-4ED1-A69A-EFEFBCB6C6D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07E77829-9766-4585-AC6C-0A28BA014E77}

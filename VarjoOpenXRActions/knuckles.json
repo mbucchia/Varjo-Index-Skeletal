@@ -1,0 +1,2107 @@
+{
+    "bindings": {
+        "/actions/controller_actions_scene_actionset": {
+            "poses": [
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/left_aim",
+                    "path": "/user/hand/left/pose/tip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/left_grip",
+                    "path": "/user/hand/left/pose/handgrip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/right_aim",
+                    "path": "/user/hand/right/pose/tip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/right_grip",
+                    "path": "/user/hand/right/pose/handgrip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/left_aim",
+                    "path": "/user/hand/left/pose/tip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/left_grip",
+                    "path": "/user/hand/left/pose/handgrip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/right_aim",
+                    "path": "/user/hand/right/pose/tip"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/right_grip",
+                    "path": "/user/hand/right/pose/handgrip"
+                }
+            ],
+            "skeleton": [
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/HandSkeletonLeft",
+                    "path": "/user/hand/left/input/skeleton/left"
+                },
+                {
+                    "output": "/actions/controller_actions_scene_actionset/in/HandSkeletonRight",
+                    "path": "/user/hand/right/input/skeleton/right"
+                }
+            ],
+            "sources": [
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion2"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion2"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "pull": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_value_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_click_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/left/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trigger_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trigger",
+                    "path": "/user/hand/right/input/trigger"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion2"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "grab": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_value_Coercion2"
+                        }
+                    },
+                    "mode": "grab",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/squeeze_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/grip"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_x_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_y_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_click_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/left/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/thumbstick_touch_Coercion2"
+                        }
+                    },
+                    "mode": "joystick",
+                    "path": "/user/hand/right/input/thumbstick"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_x_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_y_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_touch_Coercion2"
+                        }
+                    },
+                    "mode": "trackpad",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/left/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "force": {
+                            "output": "/actions/controller_actions_scene_actionset/in/trackpad_force_Coercion2"
+                        }
+                    },
+                    "mode": "force_sensor",
+                    "path": "/user/hand/right/input/trackpad"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/a_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/a"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/b_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/b"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/left/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                },
+                {
+                    "inputs": {
+                        "touch": {
+                            "output": "/actions/controller_actions_scene_actionset/in/system_touch_Coercion2"
+                        }
+                    },
+                    "mode": "button",
+                    "path": "/user/hand/right/input/system"
+                }
+            ]
+        }
+    },
+    "controller_type": "knuckles",
+    "description": "Varjo OpenXR default binding for knuckles",
+    "name": "Default binding for knuckles"
+}

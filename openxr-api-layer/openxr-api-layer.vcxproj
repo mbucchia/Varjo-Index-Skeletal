@@ -105,22 +105,24 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility;$(SolutionDir)\external\openvr\headers</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>
-      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\external\openvr\lib\win64</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)\scripts\sed.exe "s/XR_APILAYER_name/$(SolutionName)/g" $(ProjectDir)\openxr-api-layer.json &gt; $(OutDir)\openxr-api-layer.json
 copy $(SolutionDir)\scripts\Install-Layer.ps1 $(OutDir)
 copy $(SolutionDir)\scripts\Uninstall-Layer.ps1 $(OutDir)
+copy $(SolutionDir)\external\openvr\bin\win64\openvr_api.dll $(OutDir)
+md $(OutDir)\VarjoOpenXRActions
+copy $(SolutionDir)\\VarjoOpenXRActions $(OutDir)\VarjoOpenXRActions
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
@@ -149,23 +151,22 @@ copy $(SolutionDir)\scripts\Uninstall-Layer.ps1 $(OutDir)
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility;$(SolutionDir)\external\openvr\headers</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>
-      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\external\openvr\lib\win32</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)\scripts\sed.exe "s/XR_APILAYER_name/$(SolutionName)/g" $(ProjectDir)\openxr-api-layer-32.json &gt; $(OutDir)\openxr-api-layer-32.json
 copy $(SolutionDir)\scripts\Install-Layer32.ps1 $(OutDir)
 copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
-</Command>
+copy $(SolutionDir)\external\openvr\bin\win32\openvr_api.dll $(OutDir)</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy dependencies...</Message>
@@ -195,7 +196,7 @@ copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility;$(SolutionDir)\external\openvr\headers</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -204,15 +205,17 @@ copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>
-      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\external\openvr\lib\win64</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)\scripts\sed.exe "s/XR_APILAYER_name/$(SolutionName)/g" $(ProjectDir)\openxr-api-layer.json &gt; $(OutDir)\openxr-api-layer.json
 copy $(SolutionDir)\scripts\Install-Layer.ps1 $(OutDir)
 copy $(SolutionDir)\scripts\Uninstall-Layer.ps1 $(OutDir)
+copy $(SolutionDir)\external\openvr\bin\win64\openvr_api.dll $(OutDir)
+md $(OutDir)\VarjoOpenXRActions
+copy $(SolutionDir)\\VarjoOpenXRActions $(OutDir)\VarjoOpenXRActions
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
@@ -243,7 +246,7 @@ copy $(SolutionDir)\scripts\Uninstall-Layer.ps1 $(OutDir)
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\framework;$(SolutionDir)\external\OpenXR-SDK\include;$(SolutionDir)\external\OpenXR-SDK\src\common;$(SolutionDir)\external\OpenXR-MixedReality\Shared\XrUtility;$(SolutionDir)\external\openvr\headers</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -252,16 +255,15 @@ copy $(SolutionDir)\scripts\Uninstall-Layer.ps1 $(OutDir)
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>
-      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\external\openvr\lib\win32</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)\scripts\sed.exe "s/XR_APILAYER_name/$(SolutionName)/g" $(ProjectDir)\openxr-api-layer-32.json &gt; $(OutDir)\openxr-api-layer-32.json
 copy $(SolutionDir)\scripts\Install-Layer32.ps1 $(OutDir)
 copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
-</Command>
+copy $(SolutionDir)\external\openvr\bin\win32\openvr_api.dll $(OutDir)</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy dependencies...</Message>
@@ -318,6 +320,7 @@ copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\fmt.7.0.1\build\fmt.targets" Condition="Exists('..\packages\fmt.7.0.1\build\fmt.targets')" />
     <Import Project="..\packages\Microsoft.Windows.ImplementationLibrary.1.0.220201.1\build\native\Microsoft.Windows.ImplementationLibrary.targets" Condition="Exists('..\packages\Microsoft.Windows.ImplementationLibrary.1.0.220201.1\build\native\Microsoft.Windows.ImplementationLibrary.targets')" />
+    <Import Project="..\packages\Detours.4.0.1\build\native\Detours.targets" Condition="Exists('..\packages\Detours.4.0.1\build\native\Detours.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -325,5 +328,6 @@ copy $(SolutionDir)\scripts\Uninstall-Layer32.ps1 $(OutDir)
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\fmt.7.0.1\build\fmt.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\fmt.7.0.1\build\fmt.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.Windows.ImplementationLibrary.1.0.220201.1\build\native\Microsoft.Windows.ImplementationLibrary.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Windows.ImplementationLibrary.1.0.220201.1\build\native\Microsoft.Windows.ImplementationLibrary.targets'))" />
+    <Error Condition="!Exists('..\packages\Detours.4.0.1\build\native\Detours.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Detours.4.0.1\build\native\Detours.targets'))" />
   </Target>
 </Project>
